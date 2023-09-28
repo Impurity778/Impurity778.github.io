@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <title>testing | 荒</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Debian食用参考教程第一步 连接网络 1.学校机房 因为学校机房的某些不可知的原因，DHCP无法使用，所以需要手动配置网络。添加一个网络，选择ipv4,方法改为手动，DNS服务器可以采用阿里公用的223.5.5.5，子网掩码为255.255.255.0网关为统一的10.145.85.1（社团机房）地址就是本台电脑的ip（有分配） 2.其他 除本机房外有线网络或者无线基本可自动连接，如遇困难请参">
+<meta property="og:type" content="article">
+<meta property="og:title" content="testing">
+<meta property="og:url" content="http://impurity778.github.io/2023/09/28/%E5%AE%89%E8%A3%85%E4%B9%8B%E5%8F%82%E8%80%83%E6%95%99%E7%A8%8B/index.html">
+<meta property="og:site_name" content="荒">
+<meta property="og:description" content="Debian食用参考教程第一步 连接网络 1.学校机房 因为学校机房的某些不可知的原因，DHCP无法使用，所以需要手动配置网络。添加一个网络，选择ipv4,方法改为手动，DNS服务器可以采用阿里公用的223.5.5.5，子网掩码为255.255.255.0网关为统一的10.145.85.1（社团机房）地址就是本台电脑的ip（有分配） 2.其他 除本机房外有线网络或者无线基本可自动连接，如遇困难请参">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2023-09-28T06:09:40.553Z">
+<meta property="article:modified_time" content="2023-09-21T07:01:57.795Z">
+<meta property="article:author" content="Impurity778">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="荒" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/favicon.png">
+  
+  
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-source-code-pro@0.0.71/index.min.css">
+
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+    
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+
+  
+  
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">荒</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"><span class="fa fa-bars"></span></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+        
+          <a class="nav-icon" href="/atom.xml" title="RSS 订阅"><span class="fa fa-rss"></span></a>
+        
+        <a class="nav-icon nav-search-btn" title="搜索"><span class="fa fa-search"></span></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="搜索"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://impurity778.github.io"></form>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-安装之参考教程" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2023/09/28/%E5%AE%89%E8%A3%85%E4%B9%8B%E5%8F%82%E8%80%83%E6%95%99%E7%A8%8B/" class="article-date">
+  <time class="dt-published" datetime="2023-09-28T06:09:40.553Z" itemprop="datePublished">2023-09-28</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="p-name article-title" itemprop="headline name">
+      testing
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h1 id="Debian食用参考教程"><a href="#Debian食用参考教程" class="headerlink" title="Debian食用参考教程"></a>Debian食用参考教程</h1><h2 id="第一步-连接网络"><a href="#第一步-连接网络" class="headerlink" title="第一步 连接网络"></a>第一步 连接网络</h2><ul>
+<li>1.学校机房<br> 因为学校机房的某些不可知的原因，DHCP无法使用，所以需要手动配置网络。<br>添加一个网络，选择ipv4,方法改为手动，DNS服务器可以采用阿里公用的223.5.5.5，子网掩码为<em>255.255.255.0</em>网关为统一的<em>10.145.85.1</em>（社团机房）地址就是本台电脑的ip（有分配）</li>
+<li>2.其他<br> 除本机房外有线网络或者无线基本可自动连接，如遇困难请参考  <em><a href="wiki.debian.org%5D">wiki.debian.org</a></em></li>
+</ul>
+<hr>
+<h2 id="第二步-联网校对时间"><a href="#第二步-联网校对时间" class="headerlink" title="第二步 联网校对时间"></a>第二步 联网校对时间</h2><ul>
+<li><p>分别输入以下命令  </p>
+<pre><code> sudo apt install systemd-timesyncd
+ systemctl enable systemd-timesyncd
+ systemctl start systemd-timesyncd
+</code></pre>
+</li>
+</ul>
+<hr>
+<h2 id="第三步-换源（默认软件下载源）"><a href="#第三步-换源（默认软件下载源）" class="headerlink" title="第三步 换源（默认软件下载源）"></a>第三步 换源（默认软件下载源）</h2><ul>
+<li>由于从官网下载的debian默认下载源为国外，可能会导致无法下载软件所以需要换成国内高校的镜像源。附上链接 <a target="_blank" rel="noopener" href="https://www.jianshu.com/p/b4a792945d99">换源</a> 好用的复制扩展 <em>allow copy</em></li>
+</ul>
+<hr>
+<h2 id="第四步-安装并学习基本命令"><a href="#第四步-安装并学习基本命令" class="headerlink" title="第四步 安装并学习基本命令"></a>第四步 安装并学习基本命令</h2><p><strong>写在前面</strong>：<br>1.debian命令最好加上sudo<br>2.打开终端快捷键Ctrl+Alt+T (打开后默认位于用户目录)  </p>
+<p><strong>正文</strong></p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://www.runoob.com/linux/linux-comm-apt.html">apt</a><br> 例如：<em>sudo apt-get install gcc</em> (debian最常用的安装软件方法用于安装软件库里的软件)  </li>
+<li><a target="_blank" rel="noopener" href="https://www.cnblogs.com/lukelook/p/11201098.html">wget</a>  需要安装（sudo apt-get install wget) </li>
+<li><a target="_blank" rel="noopener" href="https://www.jianshu.com/p/7836f2131285">dpkg</a>  第二常用的包安装命令，用于安装后缀名为 <em>.deb</em> 的文件（需要在目标目录打开终端）<br> 例如：<em>sudo dpkg -i [软件包名]</em><br>tips：输入软件包名可以使用tab键，输入首几位字母后用tab补全</li>
+</ul>
+<h1 id="记得加sudo！！！"><a href="#记得加sudo！！！" class="headerlink" title="记得加sudo！！！"></a><strong>记得加sudo！！！</strong></h1><h2 id="第五步-安装一些重要的软件"><a href="#第五步-安装一些重要的软件" class="headerlink" title="第五步 安装一些重要的软件"></a>第五步 安装一些重要的软件</h2><pre><code>给出一个参考列表：
+1.vscode（需要去下载deb包）
+2.git（不多解释）
+3.icalingua++ (qq的linux替代版)  
+4.gparted (一个强大的分区软件，可能会用到)
+5.g++ (c++的编译器可以编译c)
+6.gdb (调试器)
+</code></pre>
+<p>安装java<br><a target="_blank" rel="noopener" href="https://adoptium.net/zh-CN/temurin/releases/">https://adoptium.net/zh-CN/temurin/releases/</a><br>big sur dark</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://impurity778.github.io/2023/09/28/%E5%AE%89%E8%A3%85%E4%B9%8B%E5%8F%82%E8%80%83%E6%95%99%E7%A8%8B/" data-id="cln2rzy8n0000lsruanj7e2rg" data-title="testing" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      
+      
+      
+    </footer>
+  </div>
+  
+    
+  
+</article>
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">归档</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/09/">九月 2023</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">最新文章</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2023/09/28/%E5%AE%89%E8%A3%85%E4%B9%8B%E5%8F%82%E8%80%83%E6%95%99%E7%A8%8B/">testing</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      
+      &copy; 2023 Impurity778<br>
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+
+<script src="/js/jquery-3.6.4.min.js"></script>
+
+
+
+  
+<script src="/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+
+  </div>
+</body>
+</html>
